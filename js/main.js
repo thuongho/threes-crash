@@ -7,9 +7,9 @@
     // google near clipping plane and far clipping plane
     var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
-    var renderer = new THREE.WebGLRender();
+    var renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElment);
+    document.body.appendChild(renderer.domElement);
 
     // game logic
     var update = function() {
